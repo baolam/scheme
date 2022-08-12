@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 3,
+  "version" : "1.0",
+  "name" : "schemes",
+  "description" : "TIện ích hỗ trợ học tập",
+  "permissions" : ["tabs", "activeTab"],
+  "action" : {
+    "default_icon" : "avt.jpg",
+    "default_title" : "Nhấn vào đây để thực hiện tạo kế hoạch theo web được chỉ định"
+  },
+  "background" : {
+    "service_worker" : "scheme.js"
+  },
+  "content_scripts" : [
+    {
+      "matches" : ["<all_urls>"],
+      "js" : ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+2022-08-08 12:40:27 - Starting C:\Program Files\nodejs\node.exe  F:\scheme\manage\node_modules\node-windows\lib\wrapper.js --file F:\scheme\manage\index.js --scriptoptions= --log "nodelearning wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-08 12:40:27 - Started 13972
+2022-08-08 12:41:44 - Starting C:\Program Files\nodejs\node.exe  F:\scheme\manage\node_modules\node-windows\lib\wrapper.js --file F:\scheme\manage\index.js --scriptoptions= --log "nodelearning wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-08 12:41:44 - Started 16968
+2022-08-08 12:59:12 - Starting C:\Program Files\nodejs\node.exe  F:\scheme\manage\node_modules\node-windows\lib\wrapper.js --file F:\scheme\manage\index.js --scriptoptions= --log "nodelearning wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-08 12:59:12 - Started 7204
+2022-08-08 13:00:44 - Stopping nodelearning.exe
+2022-08-08 13:00:44 - ProcessKill 7204
+2022-08-08 13:00:45 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-08 13:01:29 - Starting C:\Program Files\nodejs\node.exe  F:\scheme\manage\node_modules\node-windows\lib\wrapper.js --file F:\scheme\manage\index.js --scriptoptions= --log "nodelearning wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-08 13:01:29 - Started 5104
+2022-08-08 15:45:35 - Stopping nodelearning.exe
+2022-08-08 15:45:35 - ProcessKill 5104
+2022-08-08 15:45:36 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-08-08 15:46:20 - Starting C:\Program Files\nodejs\node.exe  F:\scheme\manage\node_modules\node-windows\lib\wrapper.js --file F:\scheme\manage\index.js --scriptoptions= --log "nodelearning wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-08 15:46:20 - Started 5020

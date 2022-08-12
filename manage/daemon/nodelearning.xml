@@ -1,0 +1,30 @@
+<service>
+	<id>nodelearning.exe</id>
+	<name>nodelearning</name>
+	<description>Dịch vụ này sẽ khởi tạo server lắng nghe tại cổng 9876</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>F:\scheme\manage\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>F:\scheme\manage\index.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>nodelearning wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>false</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>DESKTOP-K6GM5LO</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>F:\scheme\manage</workingdirectory>
+</service>

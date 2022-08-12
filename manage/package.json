@@ -1,0 +1,24 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "Hỗ trợ học tập",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "Nguyễn Đức Bảo Lâm",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "node-schedule": "^2.1.0",
+    "node-windows": "^1.0.0-beta.6",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3",
+    "socket.io": "^4.5.1"
+  }
+}
